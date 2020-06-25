@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>HTML5 | Semantics</title>
+</head>
+<body>
+
+    <!-- sidebar -->
+    <aside id="sidebar">
+        <header>
+            <h1>HTML5 Semantics</h1>
+        </header>
+        <nav id="navbar">
+            <header>
+                <h3>Navigation</h3>
+            </header>
+            <li><a href="#Introduction" class="nav-link">Introduction</a></li>
+            <li><a href="#Header_Element" class="nav-link">Header Element</a></li>
+            <li><a href="#Main_Element" class="nav-link">Main Element</a></li>
+            <li><a href="#Section_Element" class="nav-link">Section Element</a></li>
+            <li><a href="#Article_Element" class="nav-link">Article Element</a></li>
+            <li><a href="#Aside_Element" class="nav-link">Aside Element</a></li>
+            <li><a href="#Nav_Element" class="nav-link">Nav Element</a></li>
+            <li><a href="#Footer_Element" class="nav-link">Footer Element</a></li>
+            <li><a href="#reference" class="nav-link">Reference</a></li>
+        </nav>
+    </aside>
+
+
+    <!-- main section -->
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+            <header>
+                <h2>Introduction</h2>
+            </header>
+            <p>
+                Semantic elements are elements that are used in HTML to cleary describe its meaning to both the browser and the developer. They a better level of readability than their non-semantic counterparts <code>&lt;div&gt;</code> and <code>&lt;span&gt;</code> thus making it easier to edit the HTML after a long period of time.
+            </p>
+        </section>
+
+        <section class="main-section" id="Header_Element">
+            <header>
+                <h2>Header Element</h2>
+            </header>
+            <p class="code-example"><code>&lt;header&gt;&lt;/header&gt;</code></p>
+            <p class="code-description">
+                Defines the introductory content. This should be used to wrap content, such as a your headings for a <code>&lt;section&gt;</code> or <code>&lt;article&gt;</code>. Note that there can be more than one <code>&lt;header&gt;</code> element within a single document.
+            </p>
+        </section>
+
+        <section class="main-section" id="Main_Element">
+            <header>
+                <h2>Main Element</h2>
+            </header>
+            <p class="code-example"><code>&lt;main&gt;&lt;/main&gt;</code></p>
+            <p class="code-description">
+                Defines the main content of the document. This area will be where the primary focus of the document will be placed. There may be several <code>&lt;article&gt;</code> or <code>&lt;section&gt;</code> elements nested in here as well depending on what kind of document it is.
+            </p>
+        </section>
+
+        <section class="main-section" id="Section_Element">
+            <header>
+                <h2>Section Element</h2>
+            </header>
+            <p class="code-example"><code>&lt;section&gt;&lt;/section&gt;</code></p>
+            <p class="code-description">
+                Defines a section within a document. this element should be used to wrap related content.
+            </p>
+        </section>
+
+        <section class="main-section" id="Article_Element">
+            <header>
+                <h2>Article Element</h2>
+            </header>
+            <p class="code-example"><code>&lt;article&gt;&lt;/article&gt;</code></p>
+            <p class="code-description">
+                Defines independant content. Depending on the document, there may be several articles within a section or vice-versa. This element is commonly used for: <br>
+                <div class="list-wrap">
+                    <ul>
+                        <li>Blog posts</li>
+                        <li>Forum posts</li>
+                        <li>Newspaper articles</li>
+                    </ul>
+                </div>
+            </p>
+        </section>
+        
+        <section class="main-section" id="Aside_Element">
+            <header>
+                <h2>Aside Element</h2>
+            </header>
+            <p class="code-example"><code>&lt;aside&gt;&lt;/aside&gt;</code></p>
+            <p class="code-description">
+                Defines content aside from what is around it. Commonly used as a sidebar and should be relevant to what it is next to.
+            </p>
+        </section>
+
+        <section class="main-section" id="Nav_Element">
+            <header>
+                <h2>Nav Element</h2>
+            </header>
+            <p class="code-example"><code>&lt;nav&gt;&lt;/nav&gt;</code></p>
+            <p class="code-description">
+                This element is used to wrap your navigational links, common ones being: <br>
+                <div class="list-wrap">
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+            </p>
+        </section>
+
+        <section class="main-section" id="Footer_Element">
+            <header>
+                <h2>Footer Element</h2>
+            </header>
+            <p class="code-example"><code>&lt;footer&gt;&lt;/footer&gt;</code></p>
+            <p class="code-description">
+                Defines the final content for the element it is nested with in. There may be more than one <code>&lt;Footer&gt;</code> element within a single document. Common content found in this element include: 
+                <div class="list-wrap">
+                    <ul>
+                        <li>Author</li>
+                        <li>Address</li>
+                        <li>Contact info</li>
+                    </ul>
+                </div>
+            </p>
+        </section>
+
+        <section class="main-section" id="reference">
+            <header>
+                <h2>Reference</h2>
+            </header>
+            <P>More can be found about HTML Semantic Elements <a href="https://www.w3schools.com/html/html5_semantic_elements.asp">HERE</a>.</P>
+        </section>
+    </main>
+</body>
+</html>
